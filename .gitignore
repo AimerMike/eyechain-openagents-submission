@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.env
+node_modules
+artifacts
+cache
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Secrets / private keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+private.key
+private-key.txt
+secret.txt
+secrets.json
+mnemonic.txt
+wallet.json
+
+# Local config
+node_modules/
+dist/
+build/
+.cache/
+.DS_Store
+
+# Hardhat / Foundry local artifacts
+cache/
+out/
+broadcast/
